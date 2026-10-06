@@ -9,5 +9,4 @@ public class TC001 {
 	public void test() {
 		Reporter.log("hi",true);
 	}
-
 }
