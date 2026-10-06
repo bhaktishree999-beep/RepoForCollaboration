@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+    <line>
+      <![CDATA[BeforeSuite - Database Connectivity established]]>
+    </line>
+    <line>
+      <![CDATA[BeforeTest - report starts]]>
+    </line>
+    <line>
+      <![CDATA[AfterTest - report backup]]>
+    </line>
+    <line>
+      <![CDATA[AfterSuite - Database Connectivity terminated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-30T11:58:16 IST" name="ParallelExecutiontestng.xml" finished-at="2026-09-30T11:58:16 IST" duration-ms="81">
+    <groups>
+    </groups>
+    <test started-at="2026-09-30T11:58:16 IST" name="Test" finished-at="2026-09-30T11:58:16 IST" duration-ms="81">
+      <class name="com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields@7e6f74c]" started-at="2026-09-30T11:58:16 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1790749696186" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields@7e6f74c]" started-at="2026-09-30T11:58:16 IST" name="beforemethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="tC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields()[pri:0, instance:com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields@7e6f74c]" started-at="2026-09-30T11:58:16 IST" name="tC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields@7e6f74c]" started-at="2026-09-30T11:58:16 IST" name="aftermethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields@7e6f74c]" started-at="2026-09-30T11:58:16 IST" name="afterclass" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.Creatingsuite.TC001_VerifyUserIsAbleToCreateProductsWithMandatoryFields -->
+      <class name="com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="beforesuite" finished-at="2026-09-30T11:58:16 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeSuite - Database Connectivity established]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="befotetest()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="befotetest" finished-at="2026-09-30T11:58:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeTest - report starts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- befotetest -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1790749696186" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="beforemethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="tC002_VerifyUserIsAbleToCreateProductsWithAllFields()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="tC002_VerifyUserIsAbleToCreateProductsWithAllFields" finished-at="2026-09-30T11:58:16 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC002_VerifyUserIsAbleToCreateProductsWithAllFields -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="aftermethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="afterclass" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="aftertest" finished-at="2026-09-30T11:58:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterTest - report backup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields@7586beff]" started-at="2026-09-30T11:58:16 IST" name="afterSuite" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterSuite - Database Connectivity terminated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Creatingsuite.TC002_VerifyUserIsAbleToCreateProductsWithAllFields -->
+      <class name="com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields@44c03695]" started-at="2026-09-30T11:58:16 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1790749696186" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields@44c03695]" started-at="2026-09-30T11:58:16 IST" name="beforemethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="tC003_VerifyUserIsAbleToCreateProductsWithDateFields()[pri:0, instance:com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields@44c03695]" started-at="2026-09-30T11:58:16 IST" name="tC003_VerifyUserIsAbleToCreateProductsWithDateFields" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeclass but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\AdvancedSelenium\ParallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC003_VerifyUserIsAbleToCreateProductsWithDateFields -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields@44c03695]" started-at="2026-09-30T11:58:16 IST" name="aftermethod" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields@44c03695]" started-at="2026-09-30T11:58:16 IST" name="afterclass" finished-at="2026-09-30T11:58:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.Creatingsuite.TC003_VerifyUserIsAbleToCreateProductsWithDateFields -->
+    </test> <!-- Test -->
+  </suite> <!-- ParallelExecutiontestng.xml -->
+</testng-results>
